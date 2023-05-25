@@ -1,0 +1,336 @@
+body{
+    background-color: rgb(252, 255, 252);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.logo{
+    width: 10%;
+    height: 7%;
+}
+.main{
+    display: flex;
+    gap: 2%;
+    margin-top: 5%;
+}
+.pic3{
+    width: 30%;
+    height: 25%;
+}
+.navbar {
+    display: flex;
+    padding: 1%;
+    background-color:rgb(14, 73, 14) ;
+    font-size: x-large;
+    justify-content: space-between;
+}
+.navbar a {
+    padding: 1.5%;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    justify-content: space-between;
+}
+.navbar a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.vision{
+    display: flex;
+    gap: 2%;
+    font: 1em sans-serif;
+    font-size: large;
+    color:black;
+    padding-left: 3%;
+}
+.mision{
+    display: flex;
+    gap: 2%;
+    font: 1em sans-serif;
+    font-size: large;
+    color: rgb(8, 8, 0);
+}
+.image1{
+    width:90%;
+    height:90%;
+}
+.company{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.serve{
+    text-align: center;
+    color: green;
+}
+.team{
+    display: flex;
+}
+footer{
+    display: flex;
+    background-color: aliceblue;
+}
+.services{
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.our{
+    text-align: center;
+    color: red;
+}
+.like{
+    width: 25%;
+    height: 20%;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   }
+   .service-container .service-box{
+       flex: 1 1 30rem;
+       background-color:white;
+       padding: 2rem 1rem 2rem;
+       border-radius: 2rem;
+       text-align: center;
+       border: 3px solid rgb(99, 167, 32);
+   }
+   .service-box i{
+       font-size: 3px;
+   }
+   .service-box{
+       font-size: 1.rem;
+   }
+   .service-box p{
+       font-size: 1rem;
+       margin: 1rem 0 3rem;
+   }
+   .service-box img{
+    width: 30%;
+    height: 10hv;
+   }
+   .heading{
+    text-align: center;
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+}
+.end{
+    display: flex;
+    gap: 20%;
+    padding-left: 10%;
+    margin-top: 3%;
+    background-color: rgb(14, 73, 14);
+    color: white;
+}
+.members{
+    width: 40%;
+    height: 30%;
+    /* border-radius: 50%; */
+}
+.pic3{
+    width: 20%;
+    height: 30%;
+    /* border-radius: 50%; */
+    gap: 3%;
+}
+.ogan{
+    text-align: center;
+}
+.main{
+    display: flex;
+    margin-left: 15%;
+}
+@media (max-width: 768px) {
+    .logo {
+        width: 20%;
+        height: 10%;
+    }
+    .main {
+        flex-direction: column;
+        gap: 0;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a {
+        padding: 1%;
+    }
+    .apps {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .st1 {
+        flex-direction: column;
+        gap: 3%;
+    }
+    .image1 {
+        width: 100%;
+        height: auto;
+    }
+    .teams {
+        flex-direction: column;
+        gap: 3%;
+        margin-left: 0;
+    }
+    .services {
+        flex-direction: column;
+        gap: 3%;
+    }
+    .delivery, .fresh, .payment {
+        width: 100%;
+        height: auto;
+    }
+    .end {
+        flex-direction: column;
+        gap: 5%;
+        padding-left: 5%;
+    }
+    .pic3 {
+        width: 100%;
+        height: auto;
+    }
+    .like{
+        width: 5%;
+        height: 4%;
+    }
+}
+.populars{
+    display: block;
+    justify-content: space-between;
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+}
+.popular2{
+    display: flex;
+    justify-content: space-between;
+}
+.popular .img{
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+}
+.popular2 .img{
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+.theme{
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    font: 1em sans-serif;
+    font-size: large;
+}
+.team{
+    display: flex;
+    margin-top: 4%;
+    margin-left:10%;
+}
+.members{
+    width:70%;
+    height:60%;
+    /* border-radius:75%; */
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+        }
+ @media screen and (min-width: 601px) and (max-width: 1024px) {
+        }
+ @media screen and (min-width: 1025px) {
+        }
+        /* Existing CSS code */
+.populars {
+    display: block;
+    justify-content: space-between;
+}
+.popular {
+    display: flex;
+    justify-content: space-between;
+}
+.popular2 {
+    display: flex;
+    justify-content: space-between;
+}
+.popular .img {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+}
+.popular2 .img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+.theme {
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    font: 1em sans-serif;
+    font-size: large;
+}
+.team {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.members {
+    width: 75%;
+    height: 60%;
+    /* border-radius:45%; */
+    justify-content: space-between;
+}
+.ash{
+    text-decoration: solid;
+    color: black;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .populars,
+    .popular,
+    .popular2,
+    .team {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .popular .img,
+    .popular2 .img,
+    .members {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .vision {
+        grid-template-rows: max-content;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .vision {
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .service-container {
+        flex-wrap: wrap;
+    }
+    .service-container .service-box {
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .service-box img {
+        width: 50%;
+        height: auto;
+    }
+}
